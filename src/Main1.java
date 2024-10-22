@@ -76,7 +76,7 @@ public class Main1 {
         System.out.println("Всего работников в компании - " + employeeCount + " человек");
 
         employeeCount += 94;
-        var newTimePerDay =  workTime / employeeCount;
+        var newTimePerDay = workTime / employeeCount;
         System.out.println("Если в компании работает " + employeeCount + " человек, то всего " + newTimePerDay + " часа работы может быть поделено между сотрудниками");
     }
 }
